@@ -1,0 +1,31 @@
+
+
+@color: #000;
+@myWidth:300px;
+@myHeight:30px;
+@back:red;
+.common(){
+	width: @myWidth;
+	height: @myHeight;
+	color: red;
+}
+
+#header {
+  color: @color;
+  .common;
+}
+h2 {
+  color: @color;
+  width: 20px;
+  height: 20px;
+  background-color: @back;
+  font-style: 20px;
+}
+.title{
+	.common;
+}
+.nav{
+	width: 200px;
+	height: 20px;
+	font-weight: bold;
+}
