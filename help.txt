@@ -1,4 +1,16 @@
-安装gulp
+已安装gulp和依赖
+ /**
+  * gulp check                 语法检查js
+  * gulp minify-js             合并+压缩js
+  * gulp minify-jsonly	       仅压缩js
+  * gulp less                  自动编译less
+  * gulp minify-css            合并+压缩css
+  * gulp minify-cssonly	       仅压缩css
+  * gulp minify-html           仅压缩html
+  *
+  */
+
+未安装gulp
 1. 全局安装 gulp：
 $ npm install --global gulp
 2. 作为项目的开发依赖（devDependencies）安装：
@@ -12,8 +24,6 @@ gulp.task('default', function() {
 $ gulp
 
 E:\Min> gulp script
-
-
 
 
 **** BrowserSync 修改自动刷新
